@@ -1,0 +1,26 @@
+n-list1=[]
+n = int(input("Enter number of elements : ")) 
+for i in range (1, n + 1):
+  a=int(input('enter elements'))
+  nlist1.append(a)
+  print("positive numbers are")
+for j in range(n):
+ if (nlist1[j]>=0):
+  print(nlist1[j], end = ' ')                                         
+
+
+
+
+output:
+  
+
+Enter number of elements : 4
+enter elements-2
+positive numbers are
+enter elements4
+positive numbers are
+enter elements-6
+positive numbers are
+enter elements-3
+positive numbers are
+4 
